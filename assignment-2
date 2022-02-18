@@ -1,0 +1,15 @@
+sum=0
+n=int(input('enter a number:'))
+f=1
+for i in range(1,n+1):
+	f=f*i
+	sum=sum+f
+print('factorial of a given number is:',f)
+print("sum of factorials up to:",n,"=",sum)
+
+
+
+Output:
+enter a number:2
+factorial of a given number is: 2
+sum of factorials up to: 2 = 3
